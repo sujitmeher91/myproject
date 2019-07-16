@@ -1,0 +1,17 @@
+{
+   
+    
+     "PRINCETONUName": "princeton",
+    "PRINCETONPassword": "Lfgf.",
+     "Browser":"gc",
+       
+        "DriverPath":"\\Driver\\chromedriver_win32\\chromedriver.exe",
+     "Path":"F:\\chromedriver_win32\\chromedriver.exe",
+      "URL": "https://impelsys.darwinbox.in/",
+      
+    "Client List": [
+        "Client: dsad",
+        "Client: fd",
+     
+    ]
+}

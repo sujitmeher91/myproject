@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+<LoginDetails> 
+	<bokf>
+		<username>bokf_portal</username>  
+      	<password>Baboon4.</password>
+	</bokf>
+
+</LoginDetails>  
+<DownloadPath>C:\\AutomationDownload</DownloadPath>
+<url>http://stpis.com</url>
+<browser>\\Driver\\chromedriver_win32\\chromedriver.exe</browser>
+<BrowserName>GC</BrowserName>
+
+</Config>
