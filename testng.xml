@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+       
+              <listeners>
+        <listener class-name="listner.TestListener"/>
+        <listener class-name="listner.AnnotationTransformer"/>
+    </listeners>
+        
+        
+  	<test name="QA Exampler">
+  	<parameter name="browserType" value="chrome"></parameter>
+  	<parameter name="Link" value="https://elearning.heart.org">
+  	</parameter>
+  	
+		<classes>
+       <class name="TestScripts.AHALoginTest" /> 
+ 		
+		</classes>
+  	</test> <!-- Test -->
+  	
+  	
+  	<test name="AHA Academy Portal">
+  	<parameter name="browserType" value="chrome"></parameter>
+  	<parameter name="Link" value="http://qa-examengine.laerdalblr.in/admin">
+  	</parameter>
+  	
+		<classes>
+ <class name="TestScripts.Login" /> 
+       		
+			
+		</classes>
+  	</test> <!-- Test -->
+  	
+</suite> <!-- Suite -->
